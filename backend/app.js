@@ -13,7 +13,7 @@
 // app.use(bodyParser.json());
 // app.use(cors());
 
-// mongoose.connect('mongodb+srv://21mh1a4265:fh4pwS7WIVP5pCEi@cluster0.vovrpo5.mongodb.net/Cluster0?retryWrites=true&w=majority', {
+// mongoose.connect('', {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
 // })
@@ -223,7 +223,7 @@ const PORT = 1432;
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://21mh1a4265:fh4pwS7WIVP5pCEi@cluster0.vovrpo5.mongodb.net/Cluster0?retryWrites=true&w=majority', {
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
